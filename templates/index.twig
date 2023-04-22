@@ -1,0 +1,16 @@
+{% extends 'layouts/base.twig' %}
+{% block header %}
+    {% include 'layouts/_main-header.twig'  %}
+{% endblock %}
+
+    {% block content %}
+        {% include 'modules/m-banner.twig'  %}
+        {#{% include 'modules/m-side-nav.twig'  %}#}
+        {#{% include 'modules/m-block-home-about.twig'  %}#}
+        {#{% include 'modules/m-rcbl-block-home-services.twig'  %}#}
+
+    {% endblock %}
+
+{% block footer %}
+    <p>Copyright 2023. All rights reserved.</p>
+{% endblock %}

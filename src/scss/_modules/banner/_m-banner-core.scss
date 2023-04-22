@@ -1,0 +1,16 @@
+.m-banner {
+  height: var(--banner-height);
+  background-image: url('/public/images/slide-3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  .container {
+    height: 100%;
+  }
+
+  &__text {
+    color: var(--color-primary);
+  }
+}
+.-full-height {
+  --banner-height: 100vh;
+}
