@@ -8,7 +8,7 @@ body {
 
 // Container
 .container {
-  --container-width: var(--container-lg);
+  --container-width: var(--container-med);
   --container-gutter: 30px;
   @include media('<=550px') {
     --container-gutter: 20px;
